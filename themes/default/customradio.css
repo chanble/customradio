@@ -1,0 +1,24 @@
+.cb_customradio_item{
+	cursor: pointer;
+}
+.cb_customradio_item>i{
+	border-radius: 50px;
+	height: 12px;
+	overflow: hidden;
+	padding: 3px;
+	width: 12px;
+	border: 1px solid #e6e6e6;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.cb_customradio_item.on>i>em{
+	background: none repeat scroll 0 0 #14bf5c;
+	border-radius: 50px;
+	cursor: pointer;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	margin-bottom:14px;
+}
